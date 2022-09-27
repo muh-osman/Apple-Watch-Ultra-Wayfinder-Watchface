@@ -5616,6 +5616,484 @@ body {
 
 
 
+
+
+.composer-circ {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    top: 362px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: #05dc6f; */
+}
+
+.composer-circ > div {
+    background-color: transparent;
+    width: 1px;
+    height: 58px;
+    position: absolute;
+    border-radius: 99px;
+}
+
+
+.composer-circ div:nth-child(1) {
+    transform: rotate(0deg);
+}
+.composer-circ div:nth-child(1) span:nth-child(1) {
+    background-color: #fa5900;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(1) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(1) span:nth-child(3) {
+    background-color: #fa5900;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(2) {
+    transform: rotate(9deg);
+}
+.composer-circ div:nth-child(2) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(2) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(2) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(3) {
+    transform: rotate(18deg);
+}
+.composer-circ div:nth-child(3) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(3) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(3) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(4) {
+    transform: rotate(27deg);
+}
+.composer-circ div:nth-child(4) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(4) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(4) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(5) {
+    transform: rotate(36deg);
+}
+.composer-circ div:nth-child(5) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(5) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(5) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(6) {
+    transform: rotate(45deg);
+}
+.composer-circ div:nth-child(6) span:nth-child(1) {
+    background-color: #fa5900;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(6) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(6) span:nth-child(3) {
+    background-color: #fa5900;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(7) {
+    transform: rotate(54deg);
+}
+.composer-circ div:nth-child(7) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(7) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(7) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(8) {
+    transform: rotate(63deg);
+}
+.composer-circ div:nth-child(8) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(8) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(8) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(9) {
+    transform: rotate(72deg);
+}
+.composer-circ div:nth-child(9) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(9) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(9) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(10) {
+    transform: rotate(81deg);
+}
+.composer-circ div:nth-child(10) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(10) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(10) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(11) {
+    transform: rotate(90deg);
+}
+.composer-circ div:nth-child(11) span:nth-child(1) {
+    background-color: #fa5900;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(11) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(11) span:nth-child(3) {
+    background-color: #fa5900;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(12) {
+    transform: rotate(99deg);
+}
+.composer-circ div:nth-child(12) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(12) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(12) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(13) {
+    transform: rotate(108deg);
+}
+.composer-circ div:nth-child(13) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(13) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(13) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(14) {
+    transform: rotate(117deg);
+}
+.composer-circ div:nth-child(14) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(14) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(14) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(15) {
+    transform: rotate(126deg);
+}
+.composer-circ div:nth-child(15) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(15) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(15) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(16) {
+    transform: rotate(135deg);
+}
+.composer-circ div:nth-child(16) span:nth-child(1) {
+    background-color: #fa5900;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(16) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(16) span:nth-child(3) {
+    background-color: #fa5900;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(17) {
+    transform: rotate(144deg);
+}
+.composer-circ div:nth-child(17) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(17) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(17) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(18) {
+    transform: rotate(153deg);
+}
+.composer-circ div:nth-child(18) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(18) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(18) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(19) {
+    transform: rotate(162deg);
+}
+.composer-circ div:nth-child(19) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(19) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(19) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(20) {
+    transform: rotate(171deg);
+}
+.composer-circ div:nth-child(20) span:nth-child(1) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+.composer-circ div:nth-child(20) span:nth-child(2) {
+    background-color: transparent;
+    height: 88%;
+    display: block;
+}
+.composer-circ div:nth-child(20) span:nth-child(3) {
+    background-color: #696969;
+    height: 6%;
+    border-radius: 99px;
+    display: block;
+}
+
+
+
+
+
+.plus-circ-in-comp {
+    width: 22px !important;
+    height: 22px !important;
+    border-radius: 50%;
+    background-color: #4e4c4c !important;
+    position: absolute;
+    top: 15px;
+    left: 24px;
+}
+
+.plus-circ-in-comp div:nth-child(1) {
+    background-color: #ff5702;
+    transform: rotate(0) translateY(-50%) translateX(-50%);
+    border-radius: 99px;
+    width: 15px;
+    height: 1.3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.plus-circ-in-comp div:nth-child(2) {
+    background-color: #ff5702;
+    transform: rotate(0) translateX(-50%) translateY(-50%);
+    border-radius: 99px;
+    width: 1.3px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.line-in-comp{
+    position: absolute;
+    background-color: #fdfdfd !important;
+    width: 30px !important;
+    height: 2px !important;
+}
+
+
+
+
+
 .clock {
 	width: 200px;
 	height: 200px;
