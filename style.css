@@ -79,16 +79,141 @@ body {
     background-color: #919191;
 }
 
-.top-right-icon {
+.top-right-rainbow div:nth-child(1) {
     position: absolute;
-    font-size: 35px;
-    color: #fefefe;
-    font-weight: 600;
-    top: 189px;
-    left: 309px;
-    transform: rotate(28deg);
+    width: 305px;
+    height: 305px;
+    border-radius: 50%;
+    background-color: transparent;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.top-right-rainbow div:nth-child(1) span:nth-child(1) {
+    display: block;
+    position: absolute;
+    width: 79px;
+    height: 34px;
+    border-radius: 70%;
+    top: 25px;
+    left: 204px;
+    transform: rotate(39deg);
+    background: linear-gradient(90deg, rgba(1,198,239,1) 10%, rgba(57,229,80,1) 25%, rgba(243,203,32,1) 40%, rgba(254,31,67,1) 60%, rgba(169,2,253,1) 90%);
+}
+
+.top-right-rainbow div:nth-child(1) span:nth-child(2){
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    background-color: #01c6ef;
+    position: absolute;
+    top: 13.6px;
+    left: 208px;
+}
+.top-right-rainbow div:nth-child(1) span:nth-child(3){
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    background-color: #a902fd;
+    position: absolute;
+    top: 61px;
+    left: 265px;
+}
+.top-right-rainbow div:nth-child(1) span:nth-child(4){
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 23px;
+    left: 226px;
+    border: 3.5px solid #000;
+    box-sizing: content-box;
+}
+
+.top-right-rainbow div:nth-child(1) span:nth-child(5) {
+    display: block;
+    position: absolute;
+    width: 79px;
+    height: 34px;
+    border-radius: 70%;
+    top: 263px;
+    left: 51px;
+    transform: rotate(23deg);
+    background-color: #ff9501;
+}
+
+.top-right-rainbow div:nth-child(1) span:nth-child(6){
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ff9501;
+    position: absolute;
+    top: 254.5px;
+    left: 48.1px;
+    border: 0.2px solid #ff9501;
+    box-sizing: content-box;
+}
+.top-right-rainbow div:nth-child(1) span:nth-child(7){
+    width: 17px;
+    height: 13px;
+    background-color: #ff9501;
+    position: absolute;
+    top: 259.5px;
+    left: 52.5px;
+    transform: rotate(39deg);
+}
+
+.top-right-rainbow div:nth-child(1) span:nth-child(8){
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ff9501;
+    position: absolute;
+    top: 290.4px;
+    left: 122.1px;
+    border: 0.2px solid #ff9501;
+    box-sizing: content-box;
+}
+.top-right-rainbow div:nth-child(1) span:nth-child(9){
+    width: 12px;
+    height: 19px;
+    background-color: #ff9501;
+    position: absolute;
+    top: 287.5px;
+    left: 116.1px;
+    transform: rotate(-166deg);
 
 }
+
+
+
+
+
+
+
+.top-right-rainbow div:nth-child(2) {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: #000;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 
 .small-top-tringle {
     position: absolute;
@@ -100,6 +225,21 @@ body {
     border-right: 5px solid transparent;
     border-bottom: 5px solid transparent;
 }
+
+
+
+.top-right-icon {
+    position: absolute;
+    font-size: 35px;
+    color: #fefefe;
+    font-weight: 600;
+    top: 193px;
+    left: 308px;
+    transform: rotate(40deg);
+
+}
+
+
 
 .big-center {
     position: absolute;
@@ -5630,8 +5770,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /* background-color: #05dc6f; */
 }
 
 .composer-circ > div {
@@ -5641,6 +5779,34 @@ body {
     position: absolute;
     border-radius: 99px;
 }
+
+
+
+
+/* SASS CODE */
+
+/* @for $i from 0 through 20 { 
+    .composer-circ div:nth-child(#{$i + 1}) {
+      transform: rotate(#{$i * 9}deg);
+      }
+      .composer-circ div:nth-child(#{$i + 1}) span:nth-child(1) {
+      background-color: #696969;
+      height: 6%;
+      border-radius: 99px;
+      display: block;
+  }
+  .composer-circ div:nth-child(#{$i + 1}) span:nth-child(2) {
+      background-color: transparent;
+      height: 88%;
+      display: block;
+  }
+  .composer-circ div:nth-child(#{$i + 1}) span:nth-child(3) {
+      background-color: #696969;
+      height: 6%;
+      border-radius: 99px;
+      display: block;
+  }
+  } */
 
 
 .composer-circ div:nth-child(1) {
