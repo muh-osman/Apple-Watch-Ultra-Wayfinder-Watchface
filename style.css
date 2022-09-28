@@ -8,7 +8,7 @@ body {
     background-color: #f7f7f7;
     display: grid;
     place-content: center;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .interface {
@@ -193,11 +193,6 @@ body {
 }
 
 
-
-
-
-
-
 .top-right-rainbow div:nth-child(2) {
     position: absolute;
     width: 280px;
@@ -212,6 +207,242 @@ body {
     justify-content: center;
 
 }
+
+
+
+
+
+
+
+.heigh {
+    color: #fa5408;
+    position: absolute;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.heigh div:nth-child(1) {
+    position: absolute;
+    top: 253px;
+    left: -123px;
+    transform: rotate(-55deg);
+}
+.heigh div:nth-child(2) {
+    position: absolute;
+    top: 246px;
+    left: -118px;
+    transform: rotate(-51deg);
+
+}
+.heigh div:nth-child(3) {
+    position: absolute;
+    top: 237px;
+    left: -112px;
+    transform: rotate(-47deg);
+}
+.heigh div:nth-child(4) {
+    position: absolute;
+    top: 232px;
+    left: -105px;
+    transform: rotate(-48deg);
+}
+
+.heigh div:nth-child(5) {
+    position: absolute;
+    top: 223px;
+    left: -96px;
+    transform: rotate(-40deg);
+
+}
+.heigh div:nth-child(6) {
+    position: absolute;
+    top: 215.5px;
+    left: -86px;
+    transform: rotate(-35deg);
+
+}
+.heigh div:nth-child(7) {
+    position: absolute;
+    top: 209px;
+    left: -75px;
+    transform: rotate(-33deg);
+}
+
+.heigh div:nth-child(8) {
+    position: absolute;
+    top: 203.4px;
+    left: -64px;
+    transform: rotate(-23deg);
+}
+
+.heigh div:nth-child(9) {
+    position: absolute;
+    top: 197px;
+    left: -46px;
+    transform: rotate(-19deg);
+    color: #606060;
+    
+}
+.heigh div:nth-child(10) {
+    position: absolute;
+    top: 193px;
+    left: -35px;
+    transform: rotate(-13deg);
+    color: #606060;
+
+}
+
+
+
+
+
+
+.heigh div:nth-child(11) {
+    position: absolute;
+    top: 194px;
+    left: 27px;
+    transform: rotate(10deg);
+    color: #c8e327;
+
+}
+.heigh div:nth-child(12) {
+    position: absolute;
+    top: 195.5px;
+    left: 37px;
+    transform: rotate(12deg);
+    color: #c8e327;
+}
+
+.heigh div:nth-child(13) {
+    position: absolute;
+    top: 198px;
+    left: 46px;
+    transform: rotate(20deg);
+    color: #c8e327;
+}
+
+
+
+
+
+
+.heigh div:nth-child(14) {
+    position: absolute;
+    top: 402px;
+    left: -133px;
+    transform: rotate(70deg);
+    color: #ff9501;
+}
+.heigh div:nth-child(15) {
+    position: absolute;
+    top: 410px;
+    left: -129px;
+    transform: rotate(59deg);
+    color: #ff9501;
+}
+.heigh div:nth-child(16) {
+    position: absolute;
+    top: 417px;
+    left: -122px;
+    transform: rotate(59deg);
+    color: #ff9501;
+}
+.heigh div:nth-child(17) {
+    position: absolute;
+    top: 425px;
+    left: -119px;
+    transform: rotate(55deg);
+    color: #ff9501;
+}
+.heigh div:nth-child(18) {
+    position: absolute;
+    top: 434px;
+    left: -112px;
+    transform: rotate(50deg);
+    color: #ff9501;
+}
+
+
+
+
+.heigh div:nth-child(19) {
+    position: absolute;
+    top: 476px;
+    left: 31px;
+    transform: rotate(-15deg);
+    color: #f90f4d;
+}
+.heigh div:nth-child(20) {
+    position: absolute;
+    top: 473px;
+    left: 41px;
+    transform: rotate(-19deg);
+    color: #f90f4d;
+}
+.heigh div:nth-child(21) {
+    position: absolute;
+    top: 469px;
+    left: 51px;
+    transform: rotate(-27deg);
+    color: #f90f4d;
+}
+.heigh div:nth-child(22) {
+    position: absolute;
+    top: 451px;
+    left: 66px;
+    transform: rotate(50deg);
+    color: #9ca0ab;
+    font-size: 34px;
+}
+.heigh div:nth-child(23) {
+    position: absolute;
+    top: 457px;
+    left: 73px;
+    transform: rotate(-35deg);
+    color: #a2fd01;
+}
+.heigh div:nth-child(24) {
+    position: absolute;
+    top: 451px;
+    left: 82px;
+    transform: rotate(-40deg);
+    color: #a2fd01;
+}
+.heigh div:nth-child(25) {
+    position: absolute;
+    top: 431px;
+    left: 96px;
+    transform: rotate(50deg);
+    color: #9ca0ab;
+    font-size: 34px;
+}
+.heigh div:nth-child(26) {
+    position: absolute;
+    top: 434px;
+    left: 101px;
+    transform: rotate(-49deg);
+    color: #01fdf6;
+}
+.heigh div:nth-child(27) {
+    position: absolute;
+    top: 425px;
+    left: 109px;
+    transform: rotate(-60deg);
+    color: #01fdf6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -230,13 +461,12 @@ body {
 
 .top-right-icon {
     position: absolute;
-    font-size: 35px;
+    font-size: 30px;
     color: #fefefe;
-    font-weight: 600;
+    font-weight: 500;
     top: 193px;
-    left: 308px;
-    transform: rotate(40deg);
-
+    left: 302px;
+    transform: rotate(37deg);
 }
 
 
