@@ -748,7 +748,78 @@ body {
 
 
 
+.in-composer-circ-dir {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #f7f7f7;
+}
 
+.in-composer-circ-dir div:nth-child(1) {
+    position: absolute;
+    color: #f7f7f7;
+    top: 371px;
+    left: 11.9px;
+    font-size: 9px;
+    transform: rotate(45deg);
+}
+.in-composer-circ-dir div:nth-child(2) {
+    position: absolute;
+    color: #f7f7f7;
+    top: 400px;
+    left: 11.9px;
+    font-size: 9px;
+    transform: rotate(139deg);
+}
+.in-composer-circ-dir div:nth-child(3) {
+    position: absolute;
+    color: #f7f7f7;
+    top: 400px;
+    left: -16.1px;
+    font-size: 9px;
+    transform: rotate(45deg);
+}
+.in-composer-circ-dir div:nth-child(4) {
+    position: absolute;
+    color: #f7f7f7;
+    top: 373px;
+    left: -18.1px;
+    font-size: 9px;
+    transform: rotate(-45deg);
+}
+.in-composer-circ-dir div:nth-child(5) {
+    position: absolute;
+    color: #a4a4a4;
+    top: 367px;
+    left: -5.1px;
+    font-size: 7px;
+    transform: rotate(0deg);
+}
+.in-composer-circ-dir div:nth-child(6) {
+    position: absolute;
+    color: #a4a4a4;
+    top: 388px;
+    left: 16.9px;
+    font-size: 7px;
+    transform: rotate(90deg);
+}
+.in-composer-circ-dir div:nth-child(7) {
+    position: absolute;
+    color: #a4a4a4;
+    top: 408px;
+    left: -4.1px;
+    font-size: 7px;
+    transform: rotate(180deg);
+}
+.in-composer-circ-dir div:nth-child(8) {
+    position: absolute;
+    color: #a4a4a4;
+    top: 387px;
+    left: -26.1px;
+    font-size: 7px;
+    transform: rotate(-90deg);
+}
 
 
 
