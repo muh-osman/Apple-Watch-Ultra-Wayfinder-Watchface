@@ -822,6 +822,65 @@ body {
 }
 
 
+.half-circ {
+    width: 60px;
+    position: absolute;
+    top: 316px;
+    left: 226px;
+}
+
+.ActivityRings {
+    height: 100%;
+    width: 100%;
+}
+.ActivityRings .ring {
+    transform-origin: 50%;
+}
+.ActivityRings .completed {
+/* 	 animation: RingProgress 1s ease-in-out forwards; */
+    stroke-linecap: round;
+}
+.ActivityRings circle {
+    fill: none;
+}
+.ring1 .background {
+/*    stroke: transparent; */
+}
+.ring1 .completed {
+    stroke: #f3e223;
+}
+
+
+
+.half-circ-num {
+    position: absolute;
+}
+
+.half-circ-num div:nth-child(1) {
+    position: absolute;
+    top: 331px;
+    left: 32.7px;
+    color: #fdfdfd;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.half-circ-num div:nth-child(2) {
+    color: #f3e223;
+    position: absolute;
+    top: 364px;
+    left: 49.7px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.half-circ-num div:nth-child(3) {
+    color: #0ddd6b;
+    position: absolute;
+    top: 364px;
+    left: 30.3px;
+    font-size: 11px;
+    font-weight: 500;
+}
 
 
 
