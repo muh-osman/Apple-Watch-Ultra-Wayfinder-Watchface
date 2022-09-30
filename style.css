@@ -677,13 +677,14 @@ body {
     font-weight: 900;
     font-size: 18px;
     color: #020203;
+    top: -211px;
 
 }
 .num-in-big-centrt div:nth-child(1) {
     position: absolute;
     top: 228.5px;
     left: 15px;
-    transform: rotate(15deg);
+    transform: rotate(15deg) !important;
 }
 
 .num-in-big-centrt div:nth-child(2) {
@@ -697,22 +698,22 @@ body {
 .num-in-big-centrt div:nth-child(2) span:nth-child(1) {
     position: absolute;
     width: 17px;
-    height: 4px;
-    background-color: #fe5401;
-    display: block;
-    border-top-left-radius: 9px;
-    border-bottom-left-radius: 9px;
+    height: 4px !important;
+    background-color: #fe5401 !important;
+    display: block !important;
+    border-top-right-radius: 9px !important;
+    border-bottom-right-radius: 9px !important;
 }
 .num-in-big-centrt div:nth-child(2) span:nth-child(2) {
     position: absolute;
     top: 0px;
     left: 13px;
     width: 4px;
-    height: 17px;
-    background-color: #fe5401;
-    display: block;
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
+    height: 17px !important;
+    background-color: #fe5401 !important;
+    display: block !important;
+    border-bottom-left-radius: 9px !important;
+    border-bottom-right-radius: 9px !important;
 }
 
 
@@ -722,7 +723,7 @@ body {
     left: 100px;
     width: 17px;
     height: 17px;
-    transform: rotate(75deg);
+    transform: rotate(75deg) !important;
 }
 .num-in-big-centrt div:nth-child(4) {
     position: absolute;
@@ -730,7 +731,7 @@ body {
     left: 100px;
     width: 17px;
     height: 17px;
-    transform: rotate(107deg);
+    transform: rotate(107deg) !important;
 }
 .num-in-big-centrt div:nth-child(5) {
     position: absolute;
@@ -738,7 +739,7 @@ body {
     left: 69px;
     width: 17px;
     height: 17px;
-    transform: rotate(136deg);
+    transform: rotate(136deg) !important;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
 
@@ -749,7 +750,7 @@ body {
     left: 26px;
     width: 17px;
     height: 17px;
-    transform: rotate(164deg);
+    transform: rotate(164deg) !important;
 }
 
 .num-in-big-centrt div:nth-child(7) {
@@ -758,7 +759,7 @@ body {
     left: -32px;
     width: 17px;
     height: 17px;
-    transform: rotate(196deg);
+    transform: rotate(196deg) !important;
 }
 
 .num-in-big-centrt div:nth-child(8) {
@@ -767,7 +768,7 @@ body {
     left: -90px;
     width: 17px;
     height: 17px;
-    transform: rotate(223deg);
+    transform: rotate(223deg) !important;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
 
@@ -778,7 +779,7 @@ body {
     left: -115px;
     width: 17px;
     height: 17px;
-    transform: rotate(254deg);
+    transform: rotate(254deg) !important;
 }
 .num-in-big-centrt div:nth-child(10) {
     position: absolute;
@@ -786,7 +787,7 @@ body {
     left: -118px;
     width: 17px;
     height: 17px;
-    transform: rotate(284deg);
+    transform: rotate(284deg) !important;
 }
 .num-in-big-centrt div:nth-child(11) {
     position: absolute;
@@ -794,7 +795,7 @@ body {
     left: -89px;
     width: 17px;
     height: 17px;
-    transform: rotate(314deg);
+    transform: rotate(314deg) !important;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     
@@ -805,7 +806,7 @@ body {
     left: -43px;
     width: 17px;
     height: 17px;
-    transform: rotate(345deg);
+    transform: rotate(345deg) !important;
 }
 
 
