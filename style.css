@@ -233,11 +233,27 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.text span {
+.text p:nth-child(1) span {
     position: absolute;
     left: 50%;
     transform-origin:0 100px;
     font-size: 14px ;
+    font-weight: 800;
+}
+.text p:nth-child(2) span {
+    position: absolute;
+    left: 50%;
+    transform-origin: -5px -102px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.p-two {
+    position: absolute;
+    left: -34px;
+    top: 113px;
+    transform: rotate(90deg);
+    font-size: 14px;
     font-weight: 800;
 }
 

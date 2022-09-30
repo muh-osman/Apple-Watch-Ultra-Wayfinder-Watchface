@@ -25,8 +25,15 @@ runClock();
 
 
 
-const text = document.querySelector('.text p');
+const text = document.querySelector('.p-one');
 text.innerHTML = text.innerText.split("").map(
 	(char, i) =>
 	`<span style="transform:rotate(${i * 5.4}deg)">${char}</span>`
+).join("")
+
+
+const textTwo = document.querySelector('.p-two');
+textTwo.innerHTML = textTwo.innerText.split("").map(
+	(charc, l) =>
+	`<span style="transform:rotate(${l * 5}deg)">${charc}</span>`
 ).join("")
