@@ -45,3 +45,14 @@ setTimeout(function() {
     document.getElementById("five").innerHTML = "4°";
   }  
 ,5000);
+
+
+document.getElementById("bb").addEventListener("mouseover", mouseOver);
+document.getElementById("bb").addEventListener("mouseout", mouseOut);
+function mouseOver() {
+	document.getElementById("aa").style.backgroundColor = "transparent";
+  }
+  
+  function mouseOut() {
+	document.getElementById("aa").style.backgroundColor = "black";
+  }
