@@ -1030,7 +1030,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    animation-name: rot;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes rot {
+    0%   {transform: translateX(-50%) translateY(-50%) rotate(0deg);}
+    25%  {transform: translateX(-50%) translateY(-50%) rotate(-20deg);}
+    50%  {transform: translateX(-50%) translateY(-50%) rotate(30deg);}
+    100% {transform: translateX(-50%) translateY(-50%) rotate(10deg);}
+  }
 
 .big-center > div {
     background-color: transparent;

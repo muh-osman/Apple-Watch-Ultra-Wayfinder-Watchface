@@ -37,3 +37,11 @@ textTwo.innerHTML = textTwo.innerText.split("").map(
 	(charc, l) =>
 	`<span style="transform:rotate(${l * 5}deg)">${charc}</span>`
 ).join("")
+
+
+
+
+setTimeout(function() {
+    document.getElementById("five").innerHTML = "4°";
+  }  
+,5000);
