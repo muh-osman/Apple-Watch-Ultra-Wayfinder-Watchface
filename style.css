@@ -9,13 +9,28 @@ body {
     display: grid;
     place-content: center;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 .interface {
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: -1;
+    background-color: #f7f7f7;
+}
+
+
+.clock-background {
+    position: absolute;
+    z-index: -1;
+    width: 325px;
+    height: 400px;
     background-color: #000;
+    border-radius: 92px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .top-left-icon {
